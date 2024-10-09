@@ -1,0 +1,234 @@
+[
+  {
+    "ContainingType": "SistemaGestion.Controllers.ProductoController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "SistemaGestion.Model.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.ProductoController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "SistemaGestion.Model.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.ProductoController",
+    "Method": "GetProductos",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.ProductoController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Producto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.ProductoVendidoController",
+    "Method": "CrearProductoVendido",
+    "RelativePath": "api/ProductoVendido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoVendido",
+        "Type": "SistemaGestion.Model.ProductoVendido",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.ProductoVendidoController",
+    "Method": "ModificarProductoVendido",
+    "RelativePath": "api/ProductoVendido",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoVendido",
+        "Type": "SistemaGestion.Model.ProductoVendido",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.ProductoVendidoController",
+    "Method": "ObtenerProductosVendidos",
+    "RelativePath": "api/ProductoVendido",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.ProductoVendidoController",
+    "Method": "EliminarProductoVendido",
+    "RelativePath": "api/ProductoVendido/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.UsuarioController",
+    "Method": "Createusuario",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "SistemaGestion.Model.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.UsuarioController",
+    "Method": "Listusuarios",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.UsuarioController",
+    "Method": "Updateusuario",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "SistemaGestion.Model.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.UsuarioController",
+    "Method": "Getusuario",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.UsuarioController",
+    "Method": "Deleteusuario",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.VentaController",
+    "Method": "Createventa",
+    "RelativePath": "api/Venta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "venta",
+        "Type": "SistemaGestion.Model.Venta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.VentaController",
+    "Method": "Getventas",
+    "RelativePath": "api/Venta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestion.Controllers.VentaController",
+    "Method": "Deleteventa",
+    "RelativePath": "api/Venta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

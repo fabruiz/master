@@ -1,0 +1,6 @@
+@SistemaGestion_HostAddress = http://localhost:5130
+
+GET {{SistemaGestion_HostAddress}}/SistemaGestion/
+Accept: application/json
+
+###
